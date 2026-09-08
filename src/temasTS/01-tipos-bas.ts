@@ -6,7 +6,7 @@ const num3=22
 
 //Es un lenguaje tipado, siempre se debe de establecer el tipo de dato, automaticamente se toma un valor de entero con los numeros.
 
-let nombres:string //PAra declarar tipo de variable se pone ":" 
+let nombres:string //Paradeclarar tipo de variable se pone ":" 
 let num:number
 let activo:boolean
 
@@ -14,4 +14,11 @@ let activo:boolean
 
 let suma:number = num1+num2+num3
 
-console.log('La suma es: ' + suma)
+console.log('La suma es: ' + suma) //La declaracion de variables puede causar conflicto si son numero o letras, pero pueden ser varios tipos de datos al mismo tiempo
+
+let matricula:number|string
+
+matricula = 123456
+matricula = "ASFA3SE234"
+
+console.log('Tu matricula es: '+ matricula)
